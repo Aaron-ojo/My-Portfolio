@@ -7,7 +7,7 @@ const About = () => {
             <img
               src="Aaron.jpg"
               alt="Aaron"
-              className="max-w-sm h-auto object-cover md:max-w:md rounded-lg shadow-md"
+              className="w-full md:h-96 object-cover  rounded-lg shadow-md"
             />
           </div>
 
