@@ -12,25 +12,44 @@ const About = () => {
           </div>
 
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl font-bold text-gray-900 mb-6">About Me</h2>
-            <p className="text-lg text-gray-800 mb-4 leading-relaxed">
-              My journey into web development began with a curiosity about how
-              technology can solve everyday problems. Creating practical
-              applications like my movie search platform and OAU campus
-              navigation tool showed me the real impact code can have on
-              people's experiences.
+            <h2 className="text-3xl underline font-bold text-purple-900 mb-6">
+              About Me
+            </h2>
+
+            <p className="text-lg text-blue-800 mb-6 leading-relaxed">
+              I'm a frontend developer passionate about creating intuitive
+              digital experiences that blend creativity with functionality. I
+              love turning complex problems into simple, beautiful solutions.
             </p>
-            <p className="text-lg text-gray-800 mb-4 leading-relaxed">
-              I'm passionate about continuous learning—always exploring new
-              technologies and techniques to build better, more intuitive
-              interfaces. For me, the perfect project combines beautiful design
-              with practical problem-solving.
-            </p>
-            <p className="text-lg text-gray-800 leading-relaxed">
-              Outside of coding, you'll often find me discovering new films or
-              diving into the latest advancements in web development. I believe
-              great digital experiences should be both functional and enjoyable.
-            </p>
+
+            <div className="space-y-3">
+              <div className="flex">
+                <span className="text-purple-900 w-24 font-bold">AGE:</span>
+                <span className="text-red-600 font-bold">18</span>
+              </div>
+              <div className="flex">
+                <span className="text-purple-900 w-24 font-bold">EMAIL:</span>
+                <span className="text-red-600 font-bold">
+                  ojoaaron93@gmail.com
+                </span>
+              </div>
+              <div className="flex">
+                <span className="text-purple-900 w-24 font-bold">Phone:</span>
+                <span className="text-red-600 font-bold">
+                  07089196155 OR 09169305821
+                </span>
+              </div>
+              <div className="flex">
+                <span className="text-purple-900 w-24 font-bold">
+                  LOCATION:
+                </span>
+                <span className="text-red-600 font-bold">Ibadan, Nigeria</span>
+              </div>
+              <div className="flex">
+                <span className="text-purple-900 w-24 font-bold">STATUS:</span>
+                <span className="text-red-600 font-bold">Available</span>
+              </div>
+            </div>
           </div>
         </div>
       </div>

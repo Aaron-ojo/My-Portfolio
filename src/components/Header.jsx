@@ -60,32 +60,50 @@ const Header = () => {
             </div>
           </button>
 
-          {/* <div className="md:flex space-x-8">
-            <a
-              href="#about"
-              className="text-white hover:text-blue-600 font-bold text-xl transition duration-150"
-            >
-              About
-            </a>
-            <a
-              href="#projects"
-              className="text-xl font-bold text-white hover:text-blue-600 transition duration-150"
-            >
-              Projects
-            </a>
-            <a
-              href="#skills"
-              className="text-xl font-bold text-white hover:text-blue-600 transition duration-150"
-            >
-              Skills
-            </a>
-            <a
-              href="#contact"
-              className="text-xl font-bold text-white hover:text-blue-600 transition duration-150"
-            >
-              Contact
-            </a>
-          </div> */}
+          <div
+            className={`md:hidden absolute top-full left-0 w-full bg-white shadow-lg transition-all duration-300 ${
+              isMenuOpen ? "opacity-100 visible" : "opacity-0 invisible"
+            }`}
+          >
+            <div className="flex flex-col space-y-4 mx-auto px-6 container ">
+              <a
+                href="#about"
+                className="text-gray-600 hover:text-blue-600 py-2 transition"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
+              >
+                About
+              </a>
+              <a
+                href="#projects"
+                className="text-gray-600 hover:text-blue-600 py-2 transition"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
+              >
+                Project
+              </a>
+              <a
+                href="#skills"
+                className="text-gray-600 hover:text-blue-600 py-2 transition"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
+              >
+                Skills
+              </a>
+              <a
+                href="#contact"
+                className="text-gray-600 hover:text-blue-600 py-2 transition"
+                onClick={() => {
+                  setIsMenuOpen(false);
+                }}
+              >
+                Contact
+              </a>
+            </div>
+          </div>
         </div>
       </nav>
     </header>
