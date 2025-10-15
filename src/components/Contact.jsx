@@ -104,7 +104,7 @@ const Contact = () => {
                 </h4>
                 <div className="flex space-x-4">
                   <a
-                    href="#"
+                    href="https://github.com/Aaron-ojo"
                     className="bg-gray-800 text-white p-3 rounded-lg hover:bg-gray-700 transition"
                   >
                     GitHub

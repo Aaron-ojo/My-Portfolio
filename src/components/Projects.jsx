@@ -4,19 +4,19 @@ const Projects = () => {
       title: "Movie Search App",
       description:
         "A responsive movie discovery application that allows users to search, filter, and explore detailed information about films. Features include real-time search, movie details, ratings, and an intuitive interface for movie enthusiasts.",
-      image: "/YOUR_MOVIE_APP_SCREENSHOT.jpg", // ← Replace with actual filename
+      image: "/moviecardss.jpg", // ← Replace with actual filename
       technologies: ["React", "TMDB API", "Tailwind CSS"],
-      liveLink: "YOUR_MOVIE_APP_LIVE_LINK", // ← Replace with actual link
-      githubLink: "YOUR_MOVIE_APP_GITHUB_LINK", // ← Replace with actual link
+      liveLink: "https://movie-search-ivory-three.vercel.app/", // ← Replace with actual link
+      githubLink: "https://github.com/Aaron-ojo/Movie-Search", // ← Replace with actual link
     },
     {
       title: "OAU Campus Map",
       description:
         "A comprehensive digital map of Obafemi Awolowo University built with React and Leaflet library. Designed to help newcomers, freshers, and visitors navigate campus efficiently with all important locations, landmarks, and facilities clearly marked and easily accessible.",
-      image: "/YOUR_CAMPUS_MAP_SCREENSHOT.jpg", // ← Replace with actual filename
+      image: "/campusmap.jpg", // ← Replace with actual filename
       technologies: ["React", "Leaflet Library", "CSS"],
-      liveLink: "YOUR_CAMPUS_MAP_LIVE_LINK", // ← Replace with actual link
-      githubLink: "YOUR_CAMPUS_MAP_GITHUB_LINK", // ← Replace with actual link
+      liveLink: "https://campus-navigator-ten.vercel.app/", // ← Replace with actual link
+      githubLink: "https://github.com/Aaron-ojo/Campus-Navigator", // ← Replace with actual link
     },
   ];
   return (
@@ -72,12 +72,14 @@ const Projects = () => {
                 {/* Project Links */}
                 <div className="flex space-x-4">
                   <a
+                    target="_blank"
                     href={project.liveLink}
                     className="bg-blue-600 text-white px-6 py-2 rounded-lg hover:bg-blue-200 transition"
                   >
                     Live Demo
                   </a>
                   <a
+                    target="_blank"
                     href={project.githubLink}
                     className="border border-gray-300 text-gray-700 px-6 py-2 rounded-lg hover:border-gray-400 transition bg-white"
                   >
