@@ -27,7 +27,7 @@ const About = () => {
               </div>
               <div className="flex">
                 <span className="text-purple-900 w-24 font-bold">EMAIL:</span>
-                <span className="text-red-600 font-bold">
+                <span className="text-red-600 font-bold leading-relaxed">
                   ojoaaron93@gmail.com
                 </span>
               </div>
