@@ -27,7 +27,7 @@ const Skills = () => {
   return (
     <section id="skills" className="py-12 px-6 bg-purple-200">
       <div className="mx-auto container bg-white p-2 rounded-lg shadow-lg">
-        <h1 className="text-3xl text-center underline text-purple-900 font-bold">
+        <h1 className="text-3xl text-center  text-gray-900 font-bold">
           Skills & Technologies
         </h1>
 
@@ -38,7 +38,7 @@ const Skills = () => {
           practice.
         </p>
 
-        <div className="mx-auto max-w-2xl">
+        <div className="mx-auto max-w-2xl shadow-purple-400 shadow-lg p-6 mb-4 rounded-lg bg-purple-100">
           {skills.map((skill, index) => (
             <SkillBar key={index} skill={skill.name} level={skill.level} />
           ))}

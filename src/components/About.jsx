@@ -1,7 +1,7 @@
 const About = () => {
   return (
-    <section id="about" className="py-12 px-16 bg-purple-200">
-      <div className="container mx-auto bg-white p-8 rounded-lg shadow-lg">
+    <section id="about" className="py-12 px-6 bg-purple-200">
+      <div className="container mx-auto p-8 bg-white rounded-lg shadow-lg ">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
             <img
@@ -11,7 +11,7 @@ const About = () => {
             />
           </div>
 
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 shadow-lg bg-purple-100 p-6 rounded-lg shadow-purple-400">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
 
             <p className="text-lg text-gray-800 mb-6">

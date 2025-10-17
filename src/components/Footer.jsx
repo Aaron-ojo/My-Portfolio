@@ -40,10 +40,7 @@ const Footer = () => {
 
           {/* Back to Top */}
           <div className="mt-4 md:mt-0">
-            <a
-              href="#hero"
-              className="text-white hover:text-gray-400 transition"
-            >
+            <a href="#" className="text-white hover:text-gray-400 transition">
               Back to Top ↑
             </a>
           </div>

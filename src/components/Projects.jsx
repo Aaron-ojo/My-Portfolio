@@ -44,7 +44,7 @@ const Projects = () => {
               </div>
 
               {/* Content Column */}
-              <div className="w-full md:w-1/2">
+              <div className="w-full md:w-1/2 shadow-lg p-6 rounded-lg shadow-purple-400 bg-purple-100">
                 <h3 className="text-2xl font-bold text-gray-800 mb-4">
                   {project.title}
                 </h3>
@@ -70,7 +70,7 @@ const Projects = () => {
                 </div>
 
                 {/* Project Links */}
-                <div className="flex space-x-4">
+                <div className="flex space-x-4 ">
                   <a
                     target="_blank"
                     href={project.liveLink}

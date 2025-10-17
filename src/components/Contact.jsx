@@ -117,7 +117,7 @@ const Contact = () => {
                   </a>
                   <a
                     href="#"
-                    className="bg-pink-600 text-white p-3 rounded-lg hover:bg-pink-700 transition"
+                    className="bg-pink-600 text-white md:p-3 text-base md:text-lg p-2 rounded-lg hover:bg-pink-700 transition"
                   >
                     Instagram
                   </a>
@@ -126,7 +126,7 @@ const Contact = () => {
             </div>
 
             {/* Simple Message */}
-            <div className="bg-white p-8 rounded-lg shadow-lg">
+            <div className="bg-purple-100 p-8 rounded-lg shadow-lg shadow-purple-400 ">
               <h3 className="text-xl font-semibold text-gray-800 mb-4">
                 Send me a message
               </h3>
