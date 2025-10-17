@@ -1,7 +1,7 @@
 const About = () => {
   return (
     <section id="about" className="py-12 px-16 bg-purple-200">
-      <div className="container mx-auto">
+      <div className="container mx-auto bg-white p-8 rounded-lg shadow-lg">
         <div className="flex flex-col md:flex-row gap-8 items-center">
           <div className="w-full md:w-1/2">
             <img
@@ -12,11 +12,9 @@ const About = () => {
           </div>
 
           <div className="w-full md:w-1/2">
-            <h2 className="text-3xl underline font-bold text-purple-900 mb-6">
-              About Me
-            </h2>
+            <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
 
-            <p className="text-lg text-blue-800 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-800 mb-6 leading-relaxed">
               I'm a frontend developer passionate about creating intuitive
               digital experiences that blend creativity with functionality. I
               love turning complex problems into simple, beautiful solutions.
