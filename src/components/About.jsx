@@ -14,7 +14,7 @@ const About = () => {
           <div className="w-full md:w-1/2">
             <h2 className="text-3xl font-bold text-gray-800 mb-6">About Me</h2>
 
-            <p className="text-lg text-gray-800 mb-6 leading-relaxed">
+            <p className="text-lg text-gray-800 mb-6">
               I'm a frontend developer passionate about creating intuitive
               digital experiences that blend creativity with functionality. I
               love turning complex problems into simple, beautiful solutions.
@@ -27,7 +27,7 @@ const About = () => {
               </div>
               <div className="flex">
                 <span className="text-purple-900 w-24 font-bold">EMAIL:</span>
-                <span className="text-red-600 font-bold leading-relaxed">
+                <span className="text-red-600 font-bold overflow-x-auto">
                   ojoaaron93@gmail.com
                 </span>
               </div>
