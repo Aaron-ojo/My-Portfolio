@@ -4,7 +4,7 @@ const Header = () => {
   const [isMenuOpen, setIsMenuOpen] = useState(false);
 
   return (
-    <header className="fixed top-0 w-full bg-purple-800 shadow-sm">
+    <header className="w-full bg-purple-800 shadow-sm">
       <nav className="container mx-auto px-6 py-4">
         <div className="flex justify-between items-center">
           <a href="#" className="text-xl text-red-400 font-bold">

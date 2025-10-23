@@ -3,11 +3,11 @@ const About = () => {
     <section id="about" className="py-12 px-6 bg-purple-200">
       <div className="container mx-auto p-8 bg-white rounded-lg shadow-lg ">
         <div className="flex flex-col md:flex-row gap-8 items-center">
-          <div className="w-full md:w-1/2">
+          <div className="w-full md:w-1/2 hover:scale-105 z-10  transform transition-transform duration-500">
             <img
               src="Aaron.jpg"
               alt="Aaron"
-              className="w-full md:h-96 object-cover  rounded-lg shadow-md"
+              className="w-full md:h-96 object-cover transform-gpu  rounded-lg shadow-md"
             />
           </div>
 
