@@ -21,7 +21,7 @@ const Footer = () => {
               GitHub
             </a>
             <a
-              href="https://linkedin.com/in/Aaron-Ojo"
+              href="https://www.linkedin.com/in/aaron-ojo-bb4a26386/"
               target="_blank"
               rel="noopener noreferrer"
               className="text-white hover:text-gray-400 transition border-2 border-white px-3 py-1 rounded-lg"
@@ -38,7 +38,6 @@ const Footer = () => {
             </a>
           </div>
 
-          {/* Back to Top */}
           <div className="mt-4 md:mt-0">
             <a href="#" className="text-white hover:text-gray-400 transition">
               Back to Top ↑
@@ -46,7 +45,6 @@ const Footer = () => {
           </div>
         </div>
 
-        {/* Made with love */}
         <div className="text-center mt-6 pt-6 border-t border-gray-700">
           <p className="text-white text-sm">Made with React and Tailwind CSS</p>
         </div>

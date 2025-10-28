@@ -1,15 +1,6 @@
 const Projects = () => {
   const projects = [
     {
-      title: "Movie Search App",
-      description:
-        "A responsive movie discovery application that allows users to search, filter, and explore detailed information about films. Features include real-time search, movie details, ratings, and an intuitive interface for movie enthusiasts.",
-      image: "/moviecardss.jpg",
-      technologies: ["React", "TMDB API", "Tailwind CSS"],
-      liveLink: "https://movie-search-ivory-three.vercel.app/",
-      githubLink: "https://github.com/Aaron-ojo/Movie-Search",
-    },
-    {
       title: "OAU Campus Map",
       description:
         "A comprehensive digital map of Obafemi Awolowo University built with React and Leaflet library. Designed to help newcomers, freshers, and visitors navigate campus efficiently with all important locations, landmarks, and facilities clearly marked and easily accessible.",
@@ -17,6 +8,25 @@ const Projects = () => {
       technologies: ["React", "Leaflet Library", "CSS"],
       liveLink: "https://campus-navigator-ten.vercel.app/",
       githubLink: "https://github.com/Aaron-ojo/Campus-Navigator",
+    },
+    {
+      title: "TicketFlow(Ticket Management App)",
+      description:
+        "TicketFlow is a modern support ticket management platform that streamlines issue tracking for teams. Features include user authentication, ticket creation/editing, status tracking, and a comprehensive dashboard with real-time analytics. Built with React, React Router, and Tailwind CSS with a mobile-first responsive design.",
+      image: "./ticketflow.jpg",
+      technologies: ["React", "Tailwind CSS"],
+      liveLink: "https://ticketflow-seven.vercel.app",
+      githubLink:
+        "https://github.com/Aaron-ojo/HNG-INTERNSHIP/tree/main/ticketing",
+    },
+    {
+      title: "Movie Search App",
+      description:
+        "A responsive movie discovery application that allows users to search, filter, and explore detailed information about films. Features include real-time search, movie details, ratings, and an intuitive interface for movie enthusiasts.",
+      image: "/moviecardss.jpg",
+      technologies: ["React", "TMDB API", "Tailwind CSS"],
+      liveLink: "https://movie-search-ivory-three.vercel.app/",
+      githubLink: "https://github.com/Aaron-ojo/Movie-Search",
     },
     {
       title: "Modern E-Commerce with React & Tailwind",

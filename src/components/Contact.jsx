@@ -97,7 +97,6 @@ const Contact = () => {
                 </div>
               </div>
 
-              {/* Social Links */}
               <div className="mt-8">
                 <h4 className="text-lg font-semibold text-gray-800 mb-4">
                   Follow Me
@@ -110,7 +109,8 @@ const Contact = () => {
                     GitHub
                   </a>
                   <a
-                    href="#"
+                    href="https://www.linkedin.com/in/aaron-ojo-bb4a26386/"
+                    target="_blank"
                     className="bg-blue-600 text-white p-3 rounded-lg hover:bg-blue-700 transition"
                   >
                     LinkedIn
